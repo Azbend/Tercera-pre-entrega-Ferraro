@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from miapp.models import pais, cliente, dni
 
 def index(request):
@@ -7,7 +7,7 @@ def index(request):
 def formulario(request):
     if request.method == 'POST':
        
-        pass  
+        return redirect('index') 
 
     return render(request, 'miapp/formulario.html')
 
