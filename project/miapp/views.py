@@ -6,8 +6,8 @@ def index(request):
 
 def formulario(request):
     if request.method == 'POST':
-        
+       
+        pass  
 
     return render(request, 'miapp/formulario.html')
-
 
