@@ -6,9 +6,8 @@ def index(request):
 
 def formulario(request):
     if request.method == 'POST':
-        # Lógica para procesar el formulario y guardar los datos en las clases de modelos
+        
 
     return render(request, 'miapp/formulario.html')
 
 
-# Create your views here.
